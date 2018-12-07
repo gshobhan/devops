@@ -22,7 +22,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
-		<surefire.version>2.17</surefire.version>
+		<!-- <surefire.version>2.22.1</surefire.version> -->
 		<jacoco.version>0.7.9</jacoco.version>
 	</properties>
 	
@@ -95,7 +95,7 @@
 			<plugin>
 			  <groupId>org.apache.maven.plugins</groupId>
 			  <artifactId>maven-surefire-plugin</artifactId>
-			  <version>${surefire.version}</version>
+			 <!--  <version>${surefire.version}</version> -->
 			</plugin>
 			<plugin>
 			    <groupId>org.jacoco</groupId>
